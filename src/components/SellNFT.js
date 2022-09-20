@@ -91,7 +91,7 @@ export default function SellNFT () {
         <Navbar></Navbar>
         <div className="flex flex-col place-items-center mt-10" id="nftForm">
             <form className="bg-white shadow-md rounded px-8 pt-4 pb-8 mb-4">
-            <h3 className="text-center font-bold text-purple-500 mb-8">Upload your NFT to the marketplace</h3>
+            <h3 className="text-center font-bold text-purple-500 mb-8">Upload  NFT to the marketplace</h3>
                 <div className="mb-4">
                     <label className="block text-purple-500 text-sm font-bold mb-2" htmlFor="name">NFT Name</label>
                     <input className="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline" id="name" type="text" placeholder="Axie#4563" onChange={e => updateFormParams({...formParams, name: e.target.value})} value={formParams.name}></input>
@@ -111,7 +111,7 @@ export default function SellNFT () {
                 <br></br>
                 <div className="text-green text-center">{message}</div>
                 <button onClick={listNFT} className="font-bold mt-10 w-full bg-purple-500 text-white rounded p-2 shadow-lg">
-                    List Meme
+                    List NFT
                 </button>
             </form>
         </div>
